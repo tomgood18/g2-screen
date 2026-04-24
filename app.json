@@ -1,0 +1,20 @@
+{
+  "package_id": "com.tomgood.g2screen",
+  "edition": "202601",
+  "name": "G2 Screen",
+  "version": "0.1.0",
+  "min_app_version": "0.1.0",
+  "tagline": "Ask questions about what's on your screen",
+  "description": "Always-on screen capture companion. Tap to ask a question about your desktop — the answer appears on your G2 lens.",
+  "author": "Tom Good <tom.good@phoenix-dx.com>",
+  "entrypoint": "index.html",
+  "permissions": {
+    "network": [
+      "api.anthropic.com",
+      "*"
+    ],
+    "fs": [
+      "./assets"
+    ]
+  }
+}
